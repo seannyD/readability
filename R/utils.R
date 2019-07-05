@@ -1,6 +1,6 @@
 
 flesch_kincaid_ <- function(n.words, n.sents, n.sylls, ...){
-    (.39*(n.words/n.sents)) + (11.8*(n.sylls/n.words)) - 15.9
+    (.39*(n.words/n.sents)) + (11.8*(n.sylls/n.words)) - 15.59
 }
 
 gunning_fog_ <- function(n.words, n.sents, n.complexes, ...){
